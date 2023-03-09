@@ -1,5 +1,6 @@
-import AboutUs from "Views/AboutUs";
+
 import { Link } from "react-router-dom";
+import AboutUs from "Views/AboutUs/Views/AboutUs";
 
 export const PUBLIC_ROUTES = [
   {

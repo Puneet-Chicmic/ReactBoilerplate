@@ -5,7 +5,7 @@ import { AUTH_ROUTES } from "./AuthRoutes";
 import { PRIVATE_ROUTES } from "./PrivateRoutes";
 import { PUBLIC_ROUTES } from "./PublicRoutes";
 
-const pathToRegexp = require("path-to-regexp");
+const {pathToRegexp} = require("path-to-regexp");
 
 const DocumentTitle = ({ isAuthenticated = false }) => {
   const location = useLocation();

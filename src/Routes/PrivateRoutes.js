@@ -1,4 +1,4 @@
-import Dashbord from "Views/Dashboard";
+import Dashbord from "Views/Dashboard/Views/Dashboard";
 
 export const PRIVATE_ROUTES = [
   {

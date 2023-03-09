@@ -1,6 +1,6 @@
-import Login from "Views/Login";
-import SignUp from "Views/SignUp";
-import ForgotPassword from "Views/ForgotPassword";
+import ForgotPassword from "Views/ForgotPassword/Views/ForgotPassword";
+import Login from "Views/Login/Views/Login";
+import SignUp from "Views/SignUp/Views/SignUp";
 
 export const AUTH_ROUTES = [
   {

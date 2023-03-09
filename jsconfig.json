@@ -3,7 +3,8 @@
     "target": "es5",
     "baseUrl": "src",
     "module": "commonjs",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution":"node"
   },
   "include": ["src"],
   "exclude": ["dist", "node_modules"]
